@@ -1,0 +1,41 @@
+ *** Targets ***
+ probe = FPing
+ menu = Top
+ title = Network Latency Grapher
+ remark = Welcome to this SmokePing website.
+ 
+ + network
+ menu = Network Latency
+ title = Network latency (ICMP pings)
+ 
+ ++ Google
+ title = Google.com
+ menu = Google.com
+ host = google.com
+
+ ++ google-dns
+ title = 8.8.8.8
+ menu = 8.8.8.8
+ host = 8.8.8.8
+
+ ++ Cloud
+menu = Cloudflare
+title = Cloudflare
+host = 1.1.1.1
+ 
+ 
+ + services
+menu = DNS 
+title = Service latency (DNS, HTTP)
+ 
+ ++ DNS
+ probe = DNS
+ menu = DNS latency
+ title = Service latency (DNS)
+ 
+ +++ google
+ host = 8.8.8.8
+ 
+ +++ cloudflare
+ host = 1.1.1.1
+ 
